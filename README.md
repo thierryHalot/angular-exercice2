@@ -1,5 +1,6 @@
 # AngularExercice2
 
+Exercise 2 of the udemy training ( Angular-The complete guide).
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
 ## Development server

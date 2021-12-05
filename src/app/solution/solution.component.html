@@ -1,0 +1,17 @@
+<div class="container solution">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>My solution :</h3>
+            <input type="text" class="form-control" [(ngModel)]="username">
+            <p>{{username}}</p>
+            <button class="btn btn-primary" [disabled]="!username" (click)="clearUsername()">Clear </button>
+        </div>
+        <div class="col-xs-12">
+            <h4>Explication :</h4>
+            <p>In this exercise, I first created a username property which I linked with my input via the [(ngModel)] directive.<br> For this to work, I had to import FormsModule into the app.modules.ts file.<br> Then I created a button with a [disabled]
+                attribute that I linked with my username property, when username is empty, it will return false and true if text is entered, which allows the activation and deactivation of the button.<br> Then when a click event is performed on my button,
+                I simply execute a function that empties my username property.<br>
+            </p>
+        </div>
+    </div>
+</div>
